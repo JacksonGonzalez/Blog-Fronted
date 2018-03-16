@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+header{
+	background: #000000;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 16px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav ul{
+	display: flex;
+	
+}
+
+nav li {
+	list-style: none;
+	/* margin: 0 10px; */
+	color: white
+
+}
+
+nav li:after{
+	content: '|';
+	display: inline-block;
+	margin: 0 10px;
+}
+nav li:last-child:after {
+	display: none;
+}
+
+h1{
+	margin: 0;
+}
+.portada {
+	/* border: 5px solid red; */
+	position: relative;
+}
+
+.portada .description {
+	background: rgba(255, 255, 255, .8);
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	padding: 20px;
+}
+
+.blog{
+	width: 86%;
+	margin: 0 auto;
+}
