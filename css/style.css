@@ -38,6 +38,7 @@ nav li:last-child:after {
 
 h1{
 	margin: 0;
+	font-weight: 600;
 }
 .portada {
 	/* border: 5px solid red; */
@@ -53,6 +54,21 @@ h1{
 }
 
 .blog{
-	width: 86%;
+	width: 85%;
 	margin: 0 auto;
+}
+
+.blog-items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.blog-items h3{
+	font-weight: 600;
+	margin: 15px 0;
+}
+
+.item-blog {
+	width: 33%;
 }
