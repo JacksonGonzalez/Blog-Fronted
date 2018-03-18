@@ -102,10 +102,12 @@ nav a.is-active {
 h1{
 	margin: 0;
 	font-weight: 600;
+	margin-bottom: 15px;
 }
 .portada {
 	/* border: 5px solid red; */
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .portada .description {
@@ -129,11 +131,15 @@ h1{
 
 .blog-items h3{
 	font-weight: 600;
-	margin: 15px 0;
+	margin: 15px 0 15px;
 }
 
 .item-blog {
 	width: 33%;
+}
+
+.item-blog .description {
+	margin-bottom: 15px;
 }
 
 .paginador {
@@ -168,4 +174,23 @@ h1{
 .paginador li.selected {
 	border-color: transparent;
 	background: white;
+}
+
+.autor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+	border-top: 1px solid gray;
+	padding-top: 15px;
+}
+
+.autor img {
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.autor p{
+	margin: 0;
 }
